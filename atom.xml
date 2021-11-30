@@ -111,7 +111,7 @@
     <link href="https://qwertyu212.github.io/2021/11/29/%E8%88%AA%E7%A9%BA%E5%85%AC%E5%8F%B8%E5%AE%A2%E6%88%B7%E4%BB%B7%E5%80%BC%E5%88%86%E6%9E%90/"/>
     <id>https://qwertyu212.github.io/2021/11/29/%E8%88%AA%E7%A9%BA%E5%85%AC%E5%8F%B8%E5%AE%A2%E6%88%B7%E4%BB%B7%E5%80%BC%E5%88%86%E6%9E%90/</id>
     <published>2021-11-29T13:40:08.000Z</published>
-    <updated>2021-11-29T15:24:44.608Z</updated>
+    <updated>2021-11-30T01:58:38.262Z</updated>
     
     <content type="html"><![CDATA[<h1 id="航空公司客户价值分析"><a href="#航空公司客户价值分析" class="headerlink" title="航空公司客户价值分析"></a>航空公司客户价值分析</h1><p>数据预处理：<br>丢弃数据为空的数据。<br>丢弃异常数据<br>构建 L RFMC 模型<br>构建L指标（会员入会时间距观测窗口结束的月数)<br>合并特征，进行拼接数据<br>数据标准化处理<br>聚类分析<br>绘图：</p>]]></content>
     
