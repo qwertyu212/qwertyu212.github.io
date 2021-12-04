@@ -5,8 +5,8 @@
     
     <entry>
       <title>杂货铺</title>
-      <link href="/2021/11/30/%E6%9D%82%E8%B4%A7%E9%93%BA/"/>
-      <url>/2021/11/30/%E6%9D%82%E8%B4%A7%E9%93%BA/</url>
+      <link href="/wan-wenju/2021/11/30/%E6%9D%82%E8%B4%A7%E9%93%BA/"/>
+      <url>/wan-wenju/2021/11/30/%E6%9D%82%E8%B4%A7%E9%93%BA/</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -30,8 +30,8 @@
     
     <entry>
       <title>4.运营商流失用户的分析与预测</title>
-      <link href="/2021/11/29/4-%E8%BF%90%E8%90%A5%E5%95%86%E6%B5%81%E5%A4%B1%E7%94%A8%E6%88%B7%E7%9A%84%E5%88%86%E6%9E%90%E4%B8%8E%E9%A2%84%E6%B5%8B/"/>
-      <url>/2021/11/29/4-%E8%BF%90%E8%90%A5%E5%95%86%E6%B5%81%E5%A4%B1%E7%94%A8%E6%88%B7%E7%9A%84%E5%88%86%E6%9E%90%E4%B8%8E%E9%A2%84%E6%B5%8B/</url>
+      <link href="/wan-wenju/2021/11/29/4-%E8%BF%90%E8%90%A5%E5%95%86%E6%B5%81%E5%A4%B1%E7%94%A8%E6%88%B7%E7%9A%84%E5%88%86%E6%9E%90%E4%B8%8E%E9%A2%84%E6%B5%8B/"/>
+      <url>/wan-wenju/2021/11/29/4-%E8%BF%90%E8%90%A5%E5%95%86%E6%B5%81%E5%A4%B1%E7%94%A8%E6%88%B7%E7%9A%84%E5%88%86%E6%9E%90%E4%B8%8E%E9%A2%84%E6%B5%8B/</url>
       
         <content type="html"><![CDATA[<h1 id="运营商流失用户的分析与预测"><a href="#运营商流失用户的分析与预测" class="headerlink" title="运营商流失用户的分析与预测"></a>运营商流失用户的分析与预测</h1>]]></content>
       
@@ -55,8 +55,8 @@
     
     <entry>
       <title>3.全国汽车销量可视化</title>
-      <link href="/2021/11/29/3-%E5%85%A8%E5%9B%BD%E6%B1%BD%E8%BD%A6%E9%94%80%E9%87%8F%E5%8F%AF%E8%A7%86%E5%8C%96/"/>
-      <url>/2021/11/29/3-%E5%85%A8%E5%9B%BD%E6%B1%BD%E8%BD%A6%E9%94%80%E9%87%8F%E5%8F%AF%E8%A7%86%E5%8C%96/</url>
+      <link href="/wan-wenju/2021/11/29/3-%E5%85%A8%E5%9B%BD%E6%B1%BD%E8%BD%A6%E9%94%80%E9%87%8F%E5%8F%AF%E8%A7%86%E5%8C%96/"/>
+      <url>/wan-wenju/2021/11/29/3-%E5%85%A8%E5%9B%BD%E6%B1%BD%E8%BD%A6%E9%94%80%E9%87%8F%E5%8F%AF%E8%A7%86%E5%8C%96/</url>
       
         <content type="html"><![CDATA[<p>全国汽车销量可视化</p>]]></content>
       
@@ -80,8 +80,8 @@
     
     <entry>
       <title>2.财政收入预测分析</title>
-      <link href="/2021/11/29/%E8%B4%A2%E6%94%BF%E6%94%B6%E5%85%A5%E9%A2%84%E6%B5%8B%E5%88%86%E6%9E%90/"/>
-      <url>/2021/11/29/%E8%B4%A2%E6%94%BF%E6%94%B6%E5%85%A5%E9%A2%84%E6%B5%8B%E5%88%86%E6%9E%90/</url>
+      <link href="/wan-wenju/2021/11/29/%E8%B4%A2%E6%94%BF%E6%94%B6%E5%85%A5%E9%A2%84%E6%B5%8B%E5%88%86%E6%9E%90/"/>
+      <url>/wan-wenju/2021/11/29/%E8%B4%A2%E6%94%BF%E6%94%B6%E5%85%A5%E9%A2%84%E6%B5%8B%E5%88%86%E6%9E%90/</url>
       
         <content type="html"><![CDATA[<h1 id="财政收入预测分析"><a href="#财政收入预测分析" class="headerlink" title="财政收入预测分析"></a>财政收入预测分析</h1><p>读取数据<br>求相关系数<br>关键特征提取：Lasso回归（防止过拟合），降维，缩小特征集。<br>                         相关系数不为0的<br>数据预处理<br>灰色预测模型GM（1，1）：<br>添加财政收入列<br>数据预处理<br>训练数据标准差标椎化<br>线性支持向量回归模型：<br>        模型训练<br>        预测数据标准差标椎化<br>        模型预测<br>        标椎化值还原<br>        添加入列表<br>        可视化呈现</p><h3 id="Pearson相关系数"><a href="#Pearson相关系数" class="headerlink" title="Pearson相关系数"></a>Pearson相关系数</h3><p><img src="/2021/11/29/%E8%B4%A2%E6%94%BF%E6%94%B6%E5%85%A5%E9%A2%84%E6%B5%8B%E5%88%86%E6%9E%90/image-20211129125338196.jpg" alt="image-20211129125338196"></p><p>Lasso以缩小特征集（降阶）为思想，是一种收缩估计方法。<br>Lasso方法可以将特征的系数进行压缩并使某些回归系数变为0，进而达到特征选择的目的，可以广泛地应用于模型改进与选择。<br>通过选择惩罚函数，借用Lasso思想和方法实现特征选择的目的。这种过程可以通过优化一个“损失”＋“惩罚”的函数问题来完成。<br><img src="/2021/11/29/%E8%B4%A2%E6%94%BF%E6%94%B6%E5%85%A5%E9%A2%84%E6%B5%8B%E5%88%86%E6%9E%90/image-20211129125657821.png" alt="image-20211129125657821">当原始特征中存在多重共线性时，Lasso回归不失为一种很好的处理共线性的方法，它可以有效地对存在多重共线性的特征进行筛选。</p><h2 id="了解灰色预测算法"><a href="#了解灰色预测算法" class="headerlink" title="了解灰色预测算法"></a>了解灰色预测算法</h2><p>灰色预测法是一种对含有不确定因素的系统进行预测的方法。<br><img src="/2021/11/29/%E8%B4%A2%E6%94%BF%E6%94%B6%E5%85%A5%E9%A2%84%E6%B5%8B%E5%88%86%E6%9E%90/image-20211129213021543.png" alt="image-20211129213021543"></p>]]></content>
       
@@ -105,8 +105,8 @@
     
     <entry>
       <title>1.航空公司客户价值分析</title>
-      <link href="/2021/11/29/%E8%88%AA%E7%A9%BA%E5%85%AC%E5%8F%B8%E5%AE%A2%E6%88%B7%E4%BB%B7%E5%80%BC%E5%88%86%E6%9E%90/"/>
-      <url>/2021/11/29/%E8%88%AA%E7%A9%BA%E5%85%AC%E5%8F%B8%E5%AE%A2%E6%88%B7%E4%BB%B7%E5%80%BC%E5%88%86%E6%9E%90/</url>
+      <link href="/wan-wenju/2021/11/29/%E8%88%AA%E7%A9%BA%E5%85%AC%E5%8F%B8%E5%AE%A2%E6%88%B7%E4%BB%B7%E5%80%BC%E5%88%86%E6%9E%90/"/>
+      <url>/wan-wenju/2021/11/29/%E8%88%AA%E7%A9%BA%E5%85%AC%E5%8F%B8%E5%AE%A2%E6%88%B7%E4%BB%B7%E5%80%BC%E5%88%86%E6%9E%90/</url>
       
         <content type="html"><![CDATA[<h1 id="航空公司客户价值分析"><a href="#航空公司客户价值分析" class="headerlink" title="航空公司客户价值分析"></a>航空公司客户价值分析</h1><p>数据预处理：<br>丢弃数据为空的数据。<br>丢弃异常数据<br>构建 L RFMC 模型<br>构建L指标（会员入会时间距观测窗口结束的月数)<br>合并特征，进行拼接数据<br>数据标准化处理<br>聚类分析<br>绘图：</p>]]></content>
       
@@ -130,8 +130,8 @@
     
     <entry>
       <title>第一篇文章</title>
-      <link href="/2021/11/13/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/"/>
-      <url>/2021/11/13/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</url>
+      <link href="/wan-wenju/2021/11/13/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/"/>
+      <url>/wan-wenju/2021/11/13/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</url>
       
         <content type="html"><![CDATA[<h1 id="本地图片导入"><a href="#本地图片导入" class="headerlink" title="本地图片导入"></a>本地图片导入</h1><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">![图片名](./与博文同名的文件名/1.PNG)</span><br></pre></td></tr></table></figure><p>测试：<img src="/2021/11/13/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/test_01.jpg" alt="test_01"></p>]]></content>
       
@@ -155,8 +155,8 @@
     
     <entry>
       <title>Hello World</title>
-      <link href="/2021/11/12/My-Gallery/"/>
-      <url>/2021/11/12/My-Gallery/</url>
+      <link href="/wan-wenju/2021/11/12/My-Gallery/"/>
+      <url>/wan-wenju/2021/11/12/My-Gallery/</url>
       
         <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo d</span><br></pre></td></tr></table></figure>]]></content>
       

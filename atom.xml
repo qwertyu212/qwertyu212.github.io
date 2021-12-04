@@ -3,11 +3,11 @@
   <title>万问居</title>
   
   
-  <link href="https://qwertyu212.github.io/atom.xml" rel="self"/>
+  <link href="http://yu-nian-212.gitee.io/wan-wenju/atom.xml" rel="self"/>
   
-  <link href="https://qwertyu212.github.io/"/>
+  <link href="http://yu-nian-212.gitee.io/wan-wenju/"/>
   <updated>2021-11-29T16:02:01.705Z</updated>
-  <id>https://qwertyu212.github.io/</id>
+  <id>http://yu-nian-212.gitee.io/wan-wenju/</id>
   
   <author>
     <name>日月同错</name>
@@ -18,25 +18,25 @@
   
   <entry>
     <title>杂货铺</title>
-    <link href="https://qwertyu212.github.io/2021/11/30/%E6%9D%82%E8%B4%A7%E9%93%BA/"/>
-    <id>https://qwertyu212.github.io/2021/11/30/%E6%9D%82%E8%B4%A7%E9%93%BA/</id>
+    <link href="http://yu-nian-212.gitee.io/wan-wenju/2021/11/30/%E6%9D%82%E8%B4%A7%E9%93%BA/"/>
+    <id>http://yu-nian-212.gitee.io/wan-wenju/2021/11/30/%E6%9D%82%E8%B4%A7%E9%93%BA/</id>
     <published>2021-11-29T16:00:01.000Z</published>
     <updated>2021-11-29T16:02:01.705Z</updated>
     
     
     
     
-    <category term="test" scheme="https://qwertyu212.github.io/categories/test/"/>
+    <category term="test" scheme="http://yu-nian-212.gitee.io/wan-wenju/categories/test/"/>
     
     
-    <category term="杂记" scheme="https://qwertyu212.github.io/tags/%E6%9D%82%E8%AE%B0/"/>
+    <category term="杂记" scheme="http://yu-nian-212.gitee.io/wan-wenju/tags/%E6%9D%82%E8%AE%B0/"/>
     
   </entry>
   
   <entry>
     <title>4.运营商流失用户的分析与预测</title>
-    <link href="https://qwertyu212.github.io/2021/11/29/4-%E8%BF%90%E8%90%A5%E5%95%86%E6%B5%81%E5%A4%B1%E7%94%A8%E6%88%B7%E7%9A%84%E5%88%86%E6%9E%90%E4%B8%8E%E9%A2%84%E6%B5%8B/"/>
-    <id>https://qwertyu212.github.io/2021/11/29/4-%E8%BF%90%E8%90%A5%E5%95%86%E6%B5%81%E5%A4%B1%E7%94%A8%E6%88%B7%E7%9A%84%E5%88%86%E6%9E%90%E4%B8%8E%E9%A2%84%E6%B5%8B/</id>
+    <link href="http://yu-nian-212.gitee.io/wan-wenju/2021/11/29/4-%E8%BF%90%E8%90%A5%E5%95%86%E6%B5%81%E5%A4%B1%E7%94%A8%E6%88%B7%E7%9A%84%E5%88%86%E6%9E%90%E4%B8%8E%E9%A2%84%E6%B5%8B/"/>
+    <id>http://yu-nian-212.gitee.io/wan-wenju/2021/11/29/4-%E8%BF%90%E8%90%A5%E5%95%86%E6%B5%81%E5%A4%B1%E7%94%A8%E6%88%B7%E7%9A%84%E5%88%86%E6%9E%90%E4%B8%8E%E9%A2%84%E6%B5%8B/</id>
     <published>2021-11-29T13:56:17.000Z</published>
     <updated>2021-11-29T15:25:14.211Z</updated>
     
@@ -50,17 +50,17 @@
     
     
     
-    <category term="学习" scheme="https://qwertyu212.github.io/categories/%E5%AD%A6%E4%B9%A0/"/>
+    <category term="学习" scheme="http://yu-nian-212.gitee.io/wan-wenju/categories/%E5%AD%A6%E4%B9%A0/"/>
     
     
-    <category term="Python" scheme="https://qwertyu212.github.io/tags/Python/"/>
+    <category term="Python" scheme="http://yu-nian-212.gitee.io/wan-wenju/tags/Python/"/>
     
   </entry>
   
   <entry>
     <title>3.全国汽车销量可视化</title>
-    <link href="https://qwertyu212.github.io/2021/11/29/3-%E5%85%A8%E5%9B%BD%E6%B1%BD%E8%BD%A6%E9%94%80%E9%87%8F%E5%8F%AF%E8%A7%86%E5%8C%96/"/>
-    <id>https://qwertyu212.github.io/2021/11/29/3-%E5%85%A8%E5%9B%BD%E6%B1%BD%E8%BD%A6%E9%94%80%E9%87%8F%E5%8F%AF%E8%A7%86%E5%8C%96/</id>
+    <link href="http://yu-nian-212.gitee.io/wan-wenju/2021/11/29/3-%E5%85%A8%E5%9B%BD%E6%B1%BD%E8%BD%A6%E9%94%80%E9%87%8F%E5%8F%AF%E8%A7%86%E5%8C%96/"/>
+    <id>http://yu-nian-212.gitee.io/wan-wenju/2021/11/29/3-%E5%85%A8%E5%9B%BD%E6%B1%BD%E8%BD%A6%E9%94%80%E9%87%8F%E5%8F%AF%E8%A7%86%E5%8C%96/</id>
     <published>2021-11-29T13:55:54.000Z</published>
     <updated>2021-11-29T15:24:59.290Z</updated>
     
@@ -75,17 +75,17 @@
     
     
     
-    <category term="学习" scheme="https://qwertyu212.github.io/categories/%E5%AD%A6%E4%B9%A0/"/>
+    <category term="学习" scheme="http://yu-nian-212.gitee.io/wan-wenju/categories/%E5%AD%A6%E4%B9%A0/"/>
     
     
-    <category term="Python" scheme="https://qwertyu212.github.io/tags/Python/"/>
+    <category term="Python" scheme="http://yu-nian-212.gitee.io/wan-wenju/tags/Python/"/>
     
   </entry>
   
   <entry>
     <title>2.财政收入预测分析</title>
-    <link href="https://qwertyu212.github.io/2021/11/29/%E8%B4%A2%E6%94%BF%E6%94%B6%E5%85%A5%E9%A2%84%E6%B5%8B%E5%88%86%E6%9E%90/"/>
-    <id>https://qwertyu212.github.io/2021/11/29/%E8%B4%A2%E6%94%BF%E6%94%B6%E5%85%A5%E9%A2%84%E6%B5%8B%E5%88%86%E6%9E%90/</id>
+    <link href="http://yu-nian-212.gitee.io/wan-wenju/2021/11/29/%E8%B4%A2%E6%94%BF%E6%94%B6%E5%85%A5%E9%A2%84%E6%B5%8B%E5%88%86%E6%9E%90/"/>
+    <id>http://yu-nian-212.gitee.io/wan-wenju/2021/11/29/%E8%B4%A2%E6%94%BF%E6%94%B6%E5%85%A5%E9%A2%84%E6%B5%8B%E5%88%86%E6%9E%90/</id>
     <published>2021-11-29T13:42:06.000Z</published>
     <updated>2021-11-30T02:05:50.220Z</updated>
     
@@ -99,17 +99,17 @@
     
     
     
-    <category term="学习" scheme="https://qwertyu212.github.io/categories/%E5%AD%A6%E4%B9%A0/"/>
+    <category term="学习" scheme="http://yu-nian-212.gitee.io/wan-wenju/categories/%E5%AD%A6%E4%B9%A0/"/>
     
     
-    <category term="Python" scheme="https://qwertyu212.github.io/tags/Python/"/>
+    <category term="Python" scheme="http://yu-nian-212.gitee.io/wan-wenju/tags/Python/"/>
     
   </entry>
   
   <entry>
     <title>1.航空公司客户价值分析</title>
-    <link href="https://qwertyu212.github.io/2021/11/29/%E8%88%AA%E7%A9%BA%E5%85%AC%E5%8F%B8%E5%AE%A2%E6%88%B7%E4%BB%B7%E5%80%BC%E5%88%86%E6%9E%90/"/>
-    <id>https://qwertyu212.github.io/2021/11/29/%E8%88%AA%E7%A9%BA%E5%85%AC%E5%8F%B8%E5%AE%A2%E6%88%B7%E4%BB%B7%E5%80%BC%E5%88%86%E6%9E%90/</id>
+    <link href="http://yu-nian-212.gitee.io/wan-wenju/2021/11/29/%E8%88%AA%E7%A9%BA%E5%85%AC%E5%8F%B8%E5%AE%A2%E6%88%B7%E4%BB%B7%E5%80%BC%E5%88%86%E6%9E%90/"/>
+    <id>http://yu-nian-212.gitee.io/wan-wenju/2021/11/29/%E8%88%AA%E7%A9%BA%E5%85%AC%E5%8F%B8%E5%AE%A2%E6%88%B7%E4%BB%B7%E5%80%BC%E5%88%86%E6%9E%90/</id>
     <published>2021-11-29T13:40:08.000Z</published>
     <updated>2021-11-30T01:58:38.262Z</updated>
     
@@ -123,17 +123,17 @@
     
     
     
-    <category term="学习" scheme="https://qwertyu212.github.io/categories/%E5%AD%A6%E4%B9%A0/"/>
+    <category term="学习" scheme="http://yu-nian-212.gitee.io/wan-wenju/categories/%E5%AD%A6%E4%B9%A0/"/>
     
     
-    <category term="Python" scheme="https://qwertyu212.github.io/tags/Python/"/>
+    <category term="Python" scheme="http://yu-nian-212.gitee.io/wan-wenju/tags/Python/"/>
     
   </entry>
   
   <entry>
     <title>第一篇文章</title>
-    <link href="https://qwertyu212.github.io/2021/11/13/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/"/>
-    <id>https://qwertyu212.github.io/2021/11/13/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</id>
+    <link href="http://yu-nian-212.gitee.io/wan-wenju/2021/11/13/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/"/>
+    <id>http://yu-nian-212.gitee.io/wan-wenju/2021/11/13/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</id>
     <published>2021-11-13T13:14:05.000Z</published>
     <updated>2021-11-30T16:21:04.214Z</updated>
     
@@ -147,17 +147,17 @@
     
     
     
-    <category term="test" scheme="https://qwertyu212.github.io/categories/test/"/>
+    <category term="test" scheme="http://yu-nian-212.gitee.io/wan-wenju/categories/test/"/>
     
     
-    <category term="测试" scheme="https://qwertyu212.github.io/tags/%E6%B5%8B%E8%AF%95/"/>
+    <category term="测试" scheme="http://yu-nian-212.gitee.io/wan-wenju/tags/%E6%B5%8B%E8%AF%95/"/>
     
   </entry>
   
   <entry>
     <title>Hello World</title>
-    <link href="https://qwertyu212.github.io/2021/11/12/My-Gallery/"/>
-    <id>https://qwertyu212.github.io/2021/11/12/My-Gallery/</id>
+    <link href="http://yu-nian-212.gitee.io/wan-wenju/2021/11/12/My-Gallery/"/>
+    <id>http://yu-nian-212.gitee.io/wan-wenju/2021/11/12/My-Gallery/</id>
     <published>2021-11-11T16:00:00.000Z</published>
     <updated>2021-11-14T02:56:15.944Z</updated>
     
@@ -171,10 +171,10 @@
     
     
     
-    <category term="test" scheme="https://qwertyu212.github.io/categories/test/"/>
+    <category term="test" scheme="http://yu-nian-212.gitee.io/wan-wenju/categories/test/"/>
     
     
-    <category term="测试" scheme="https://qwertyu212.github.io/tags/%E6%B5%8B%E8%AF%95/"/>
+    <category term="测试" scheme="http://yu-nian-212.gitee.io/wan-wenju/tags/%E6%B5%8B%E8%AF%95/"/>
     
   </entry>
   
