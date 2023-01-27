@@ -6,7 +6,7 @@
   <link href="https://qwertyu212.github.io/atom.xml" rel="self"/>
   
   <link href="https://qwertyu212.github.io/"/>
-  <updated>2023-01-25T13:52:31.137Z</updated>
+  <updated>2023-01-27T12:42:32.353Z</updated>
   <id>https://qwertyu212.github.io/</id>
   
   <author>
@@ -15,6 +15,89 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>运维工程师职业技能汇总大全</title>
+    <link href="https://qwertyu212.github.io/2023/01/27/%E8%BF%90%E7%BB%B4%E5%B7%A5%E7%A8%8B%E5%B8%88%E8%81%8C%E4%B8%9A%E6%8A%80%E8%83%BD%E6%B1%87%E6%80%BB%E5%A4%A7%E5%85%A8-1/"/>
+    <id>https://qwertyu212.github.io/2023/01/27/%E8%BF%90%E7%BB%B4%E5%B7%A5%E7%A8%8B%E5%B8%88%E8%81%8C%E4%B8%9A%E6%8A%80%E8%83%BD%E6%B1%87%E6%80%BB%E5%A4%A7%E5%85%A8-1/</id>
+    <published>2023-01-27T12:41:07.000Z</published>
+    <updated>2023-01-27T12:42:32.353Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong>运维工程师职业技能汇总大全</strong></p><p><a href="https://blog.51cto.com/u_14590988/3246720">运维工程师职业技能汇总大全（持续更新）_51CTO博客_运维工程师个人技能</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;strong&gt;运维工程师职业技能汇总大全&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://blog.51cto.com/u_14590988/3246720&quot;&gt;运维工程师职业技能汇总大全（持续更新）_51CTO博客_运维工程师个人技能&lt;/a&gt;&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="https://qwertyu212.github.io/2023/01/27/public-workbox-83d5fdee/"/>
+    <id>https://qwertyu212.github.io/2023/01/27/public-workbox-83d5fdee/</id>
+    <published>2023-01-27T12:40:35.095Z</published>
+    <updated>2023-01-27T13:00:03.442Z</updated>
+    
+    <content type="html"><![CDATA[define("./workbox-83d5fdee.js",["exports"],(function(t){"use strict";try{self["workbox:core:6.2.4"]&&_()}catch(t){}const e=(t,...e)=>{let s=t;return e.length>0&&(s+=` :: ${JSON.stringify(e)}`),s};class s extends Error{constructor(t,s){super(e(t,s)),this.name=t,this.details=s}}try{self["workbox:routing:6.2.4"]&&_()}catch(t){}const r=t=>t&&"object"==typeof t?t:{handle:t};class n{constructor(t,e,s="GET"){this.handler=r(e),this.match=t,this.method=s}setCatchHandler(t){this.catchHandler=r(t)}}class i extends n{constructor(t,e,s){super((({url:e})=>{const s=t.exec(e.href);if(s&&(e.origin===location.origin||0===s.index))return s.slice(1)}),e,s)}}class o{constructor(){this.t=new Map,this.i=new Map}get routes(){return this.t}addFetchListener(){self.addEventListener("fetch",(t=>{const{request:e}=t,s=this.handleRequest({request:e,event:t});s&&t.respondWith(s)}))}addCacheListener(){self.addEventListener("message",(t=>{if(t.data&&"CACHE_URLS"===t.data.type){const{payload:e}=t.data,s=Promise.all(e.urlsToCache.map((e=>{"string"==typeof e&&(e=[e]);const s=new Request(...e);return this.handleRequest({request:s,event:t})})));t.waitUntil(s),t.ports&&t.ports[0]&&s.then((()=>t.ports[0].postMessage(!0)))}}))}handleRequest({request:t,event:e}){const s=new URL(t.url,location.href);if(!s.protocol.startsWith("http"))return;const r=s.origin===location.origin,{params:n,route:i}=this.findMatchingRoute({event:e,request:t,sameOrigin:r,url:s});let o=i&&i.handler;const a=t.method;if(!o&&this.i.has(a)&&(o=this.i.get(a)),!o)return;let c;try{c=o.handle({url:s,request:t,event:e,params:n})}catch(t){c=Promise.reject(t)}const h=i&&i.catchHandler;return c instanceof Promise&&(this.o||h)&&(c=c.catch((async r=>{if(h)try{return await h.handle({url:s,request:t,event:e,params:n})}catch(t){t instanceof Error&&(r=t)}if(this.o)return this.o.handle({url:s,request:t,event:e});throw r}))),c}findMatchingRoute({url:t,sameOrigin:e,request:s,event:r}){const n=this.t.get(s.method)||[];for(const i of n){let n;const o=i.match({url:t,sameOrigin:e,request:s,event:r});if(o)return n=o,(Array.isArray(n)&&0===n.length||o.constructor===Object&&0===Object.keys(o).length||"boolean"==typeof o)&&(n=void 0),{route:i,params:n}}return{}}setDefaultHandler(t,e="GET"){this.i.set(e,r(t))}setCatchHandler(t){this.o=r(t)}registerRoute(t){this.t.has(t.method)||this.t.set(t.method,[]),this.t.get(t.method).push(t)}unregisterRoute(t){if(!this.t.has(t.method))throw new s("unregister-route-but-not-found-with-method",{method:t.method});const e=this.t.get(t.method).indexOf(t);if(!(e>-1))throw new s("unregister-route-route-not-registered");this.t.get(t.method).splice(e,1)}}let a;const c=()=>(a||(a=new o,a.addFetchListener(),a.addCacheListener()),a);const h={googleAnalytics:"googleAnalytics",precache:"precache-v2",prefix:"workbox",runtime:"runtime",suffix:"undefined"!=typeof registration?registration.scope:""},u=t=>[h.prefix,t,h.suffix].filter((t=>t&&t.length>0)).join("-"),f=t=>t||u(h.runtime);function l(t,e){const s=new URL(t);for(const t of e)s.searchParams.delete(t);return s.href}class w{constructor(){this.promise=new Promise(((t,e)=>{this.resolve=t,this.reject=e}))}}const d=new Set;try{self["workbox:strategies:6.2.4"]&&_()}catch(t){}function p(t){return"string"==typeof t?new Request(t):t}class y{constructor(t,e){this.h={},Object.assign(this,e),this.event=e.event,this.u=t,this.l=new w,this.p=[],this.v=[...t.plugins],this.m=new Map;for(const t of this.v)this.m.set(t,{});this.event.waitUntil(this.l.promise)}async fetch(t){const{event:e}=this;let r=p(t);if("navigate"===r.mode&&e instanceof FetchEvent&&e.preloadResponse){const t=await e.preloadResponse;if(t)return t}const n=this.hasCallback("fetchDidFail")?r.clone():null;try{for(const t of this.iterateCallbacks("requestWillFetch"))r=await t({request:r.clone(),event:e})}catch(t){if(t instanceof Error)throw new s("plugin-error-request-will-fetch",{thrownErrorMessage:t.message})}const i=r.clone();try{let t;t=await fetch(r,"navigate"===r.mode?void 0:this.u.fetchOptions);for(const s of this.iterateCallbacks("fetchDidSucceed"))t=await s({event:e,request:i,response:t});return t}catch(t){throw n&&await this.runCallbacks("fetchDidFail",{error:t,event:e,originalRequest:n.clone(),request:i.clone()}),t}}async fetchAndCachePut(t){const e=await this.fetch(t),s=e.clone();return this.waitUntil(this.cachePut(t,s)),e}async cacheMatch(t){const e=p(t);let s;const{cacheName:r,matchOptions:n}=this.u,i=await this.getCacheKey(e,"read"),o=Object.assign(Object.assign({},n),{cacheName:r});s=await caches.match(i,o);for(const t of this.iterateCallbacks("cachedResponseWillBeUsed"))s=await t({cacheName:r,matchOptions:n,cachedResponse:s,request:i,event:this.event})||void 0;return s}async cachePut(t,e){const r=p(t);var n;await(n=0,new Promise((t=>setTimeout(t,n))));const i=await this.getCacheKey(r,"write");if(!e)throw new s("cache-put-with-no-response",{url:(o=i.url,new URL(String(o),location.href).href.replace(new RegExp(`^${location.origin}`),""))});var o;const a=await this.g(e);if(!a)return!1;const{cacheName:c,matchOptions:h}=this.u,u=await self.caches.open(c),f=this.hasCallback("cacheDidUpdate"),w=f?await async function(t,e,s,r){const n=l(e.url,s);if(e.url===n)return t.match(e,r);const i=Object.assign(Object.assign({},r),{ignoreSearch:!0}),o=await t.keys(e,i);for(const e of o)if(n===l(e.url,s))return t.match(e,r)}(u,i.clone(),["__WB_REVISION__"],h):null;try{await u.put(i,f?a.clone():a)}catch(t){if(t instanceof Error)throw"QuotaExceededError"===t.name&&await async function(){for(const t of d)await t()}(),t}for(const t of this.iterateCallbacks("cacheDidUpdate"))await t({cacheName:c,oldResponse:w,newResponse:a.clone(),request:i,event:this.event});return!0}async getCacheKey(t,e){if(!this.h[e]){let s=t;for(const t of this.iterateCallbacks("cacheKeyWillBeUsed"))s=p(await t({mode:e,request:s,event:this.event,params:this.params}));this.h[e]=s}return this.h[e]}hasCallback(t){for(const e of this.u.plugins)if(t in e)return!0;return!1}async runCallbacks(t,e){for(const s of this.iterateCallbacks(t))await s(e)}*iterateCallbacks(t){for(const e of this.u.plugins)if("function"==typeof e[t]){const s=this.m.get(e),r=r=>{const n=Object.assign(Object.assign({},r),{state:s});return e[t](n)};yield r}}waitUntil(t){return this.p.push(t),t}async doneWaiting(){let t;for(;t=this.p.shift();)await t}destroy(){this.l.resolve(null)}async g(t){let e=t,s=!1;for(const t of this.iterateCallbacks("cacheWillUpdate"))if(e=await t({request:this.request,response:e,event:this.event})||void 0,s=!0,!e)break;return s||e&&200!==e.status&&(e=void 0),e}}t.CacheFirst=class extends class{constructor(t={}){this.cacheName=f(t.cacheName),this.plugins=t.plugins||[],this.fetchOptions=t.fetchOptions,this.matchOptions=t.matchOptions}handle(t){const[e]=this.handleAll(t);return e}handleAll(t){t instanceof FetchEvent&&(t={event:t,request:t.request});const e=t.event,s="string"==typeof t.request?new Request(t.request):t.request,r="params"in t?t.params:void 0,n=new y(this,{event:e,request:s,params:r}),i=this.q(n,s,e);return[i,this.R(i,n,s,e)]}async q(t,e,r){let n;await t.runCallbacks("handlerWillStart",{event:r,request:e});try{if(n=await this.O(e,t),!n||"error"===n.type)throw new s("no-response",{url:e.url})}catch(s){if(s instanceof Error)for(const i of t.iterateCallbacks("handlerDidError"))if(n=await i({error:s,event:r,request:e}),n)break;if(!n)throw s}for(const s of t.iterateCallbacks("handlerWillRespond"))n=await s({event:r,request:e,response:n});return n}async R(t,e,s,r){let n,i;try{n=await t}catch(i){}try{await e.runCallbacks("handlerDidRespond",{event:r,request:s,response:n}),await e.doneWaiting()}catch(t){t instanceof Error&&(i=t)}if(await e.runCallbacks("handlerDidComplete",{event:r,request:s,response:n,error:i}),e.destroy(),i)throw i}}{async O(t,e){let r,n=await e.cacheMatch(t);if(!n)try{n=await e.fetchAndCachePut(t)}catch(t){t instanceof Error&&(r=t)}if(!n)throw new s("no-response",{url:t.url,error:r});return n}},t.clientsClaim=function(){self.addEventListener("activate",(()=>self.clients.claim()))},t.registerRoute=function(t,e,r){let o;if("string"==typeof t){const s=new URL(t,location.href);o=new n((({url:t})=>t.href===s.href),e,r)}else if(t instanceof RegExp)o=new i(t,e,r);else if("function"==typeof t)o=new n(t,e,r);else{if(!(t instanceof n))throw new s("unsupported-route-type",{moduleName:"workbox-routing",funcName:"registerRoute",paramName:"capture"});o=t}return c().registerRoute(o),o}}));//# sourceMappingURL=workbox-83d5fdee.js.map]]></content>
+    
+    
+      
+      
+    <summary type="html">define(&quot;./workbox-83d5fdee.js&quot;,[&quot;exports&quot;],(function(t){&quot;use strict&quot;;try{self[&quot;workbox:core:6.2.4&quot;]&amp;&amp;_()}catch(t){}const e=(t,...e)=&gt;{let s=</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="https://qwertyu212.github.io/2023/01/27/public-service-worker/"/>
+    <id>https://qwertyu212.github.io/2023/01/27/public-service-worker/</id>
+    <published>2023-01-27T12:40:35.093Z</published>
+    <updated>2023-01-27T13:00:03.440Z</updated>
+    
+    <content type="html"><![CDATA[if(!self.define){const e=e=>{"require"!==e&&(e+=".js");let r=Promise.resolve();return t[e]||(r=new Promise((async r=>{if("document"in self){const t=document.createElement("script");t.src=e,document.head.appendChild(t),t.onload=r}else importScripts(e),r()}))),r.then((()=>{if(!t[e])throw new Error(`Module ${e} didn’t register its module`);return t[e]}))},r=(r,t)=>{Promise.all(r.map(e)).then((e=>t(1===e.length?e[0]:e)))},t={require:Promise.resolve(r)};self.define=(r,s,o)=>{t[r]||(t[r]=Promise.resolve().then((()=>{let t={};const i={uri:location.origin+r.slice(1)};return Promise.all(s.map((r=>{switch(r){case"exports":return t;case"module":return i;default:return e(r)}}))).then((e=>{const r=o(...e);return t.default||(t.default=r),t}))})))}}define("./service-worker.js",["./workbox-83d5fdee"],(function(e){"use strict";self.skipWaiting(),e.clientsClaim(),e.registerRoute(/^https:\/\/cdn\.example\.com\/.*/,new e.CacheFirst,"GET")}));//# sourceMappingURL=service-worker.js.map]]></content>
+    
+    
+      
+      
+    <summary type="html">if(!self.define){const e=e=&gt;{&quot;require&quot;!==e&amp;&amp;(e+=&quot;.js&quot;);let r=Promise.resolve();return t[e]||(r=new Promise((async r=&gt;{if(&quot;document&quot;in self){</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>运维工程师必须掌握的基础技能有哪些?</title>
+    <link href="https://qwertyu212.github.io/2023/01/27/%E8%BF%90%E7%BB%B4%E5%B7%A5%E7%A8%8B%E5%B8%88%E5%BF%85%E9%A1%BB%E6%8E%8C%E6%8F%A1%E7%9A%84%E5%9F%BA%E7%A1%80%E6%8A%80%E8%83%BD%E6%9C%89%E5%93%AA%E4%BA%9B/"/>
+    <id>https://qwertyu212.github.io/2023/01/27/%E8%BF%90%E7%BB%B4%E5%B7%A5%E7%A8%8B%E5%B8%88%E5%BF%85%E9%A1%BB%E6%8E%8C%E6%8F%A1%E7%9A%84%E5%9F%BA%E7%A1%80%E6%8A%80%E8%83%BD%E6%9C%89%E5%93%AA%E4%BA%9B/</id>
+    <published>2023-01-27T12:30:00.000Z</published>
+    <updated>2023-01-27T12:34:39.074Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="一、Linux-基础部分"><a href="#一、Linux-基础部分" class="headerlink" title="一、Linux 基础部分"></a>一、Linux 基础部分</h2><p>1、基础理论知识</p><p>2、基础命令（系统命令、目录管理、用户管理、<a href="https://so.csdn.net/so/search?q=%E6%96%87%E4%BB%B6%E6%9D%83%E9%99%90&spm=1001.2101.3001.7020">文件权限</a>、磁盘管理、资源查看等等常见操作）</p><p>3、文本高效处理（vi、vim、awk、grep、find、<a href="https://so.csdn.net/so/search?q=sed&spm=1001.2101.3001.7020">sed</a>等）</p><p>4、bash shell脚本（可以边工作边学习,使用shell编写简单的代替重复性操作的脚本）</p><p>\5. 进程调度，内存管理，文件系统，外设管理等，要熟练使用相关工具，如top iotop iftop iostat vmstat ss等，并且最好了解其原理</p><p><img src="https://img-blog.csdnimg.cn/img_convert/15eb7c153d9954aa5b8860e7cf823a93.jpeg" alt="img"></p><h2 id><a href="#" class="headerlink" title></a></h2><h2 id="二、网络管理、进程管理"><a href="#二、网络管理、进程管理" class="headerlink" title="二、网络管理、进程管理"></a>二、网络管理、进程管理</h2><p>1、TCP/IP协议、DNS服务、CDN原理、iproute常见的网络客户端工具（ping、wget、ftp）</p><p>2、crontab计划任务</p><p>3、ps、top、htop、vmstat、lsof等命令</p><p>\4. tcp，http，https，udp等</p><p>\5. 最好能做到精通，4层，7层的网络流量分析技能要熟练掌握。</p><p>\6. 内部路由协议，边际路由，交换原理，域名解析，ipv6相关知识</p><h2 id="-1"><a href="#-1" class="headerlink" title></a></h2><h2 id="三、-数据库部分"><a href="#三、-数据库部分" class="headerlink" title="三、 数据库部分"></a>三、 数据库部分</h2><ol><li>MySQL各个版本之间的关系和特性</li><li>MySQL的安装及增删改查</li><li>MySQL的存储引擎</li><li>MySQL的优化</li><li>MySQL日常使用及运维，包含备份及故障排查</li></ol><h2 id="四、常用开源组件"><a href="#四、常用开源组件" class="headerlink" title="四、常用开源组件"></a>四、常用开源组件</h2><ol><li>LAMP和LNMP的架构</li><li>tomca的使用及优化</li><li>nginx的使用场景及优化</li><li>apache的使用场景及优化</li><li>其他服务： dhcp,nfs,rsync,dns,等 等</li></ol><p>一句话概括： mysql，redis，kafka，etcd，zk，influxdb，promethues，zabbix</p><p>，graphana，ansible…</p><h2 id="-2"><a href="#-2" class="headerlink" title></a></h2><h2 id="五、shell脚本"><a href="#五、shell脚本" class="headerlink" title="五、shell脚本"></a>五、shell脚本</h2><ol><li>使用shell脚本实现各种服务的自动化部署</li><li>使用shell脚本实现监控系统及应用自动化</li><li>使用shell脚本实现各类巡检，故障排查自动化</li></ol><h2 id="六、安全"><a href="#六、安全" class="headerlink" title="六、安全"></a>六、安全</h2><ol><li>iptables四表（fiter、mangle、nat、raw）五链（prerouting、iput、forward、output、 postrouting）、基本匹配</li><li>iptable规则保存重载生效</li><li>常用加密算法，web安全，网络安全</li><li>渗透的常用手段，以及反制手段，sql注入，xxs，ddos，cc</li><li>跳板机jumpserver</li></ol><h2 id="七、监控和日志收集"><a href="#七、监控和日志收集" class="headerlink" title="七、监控和日志收集"></a>七、监控和日志收集</h2><ol><li>日志收集ELK,EFK</li><li>zabbix，prometheus</li></ol><h2 id="八、自动化工具"><a href="#八、自动化工具" class="headerlink" title="八、自动化工具"></a>八、自动化工具</h2><p>1、常见自动化运维方案：puppet、ansible、salt、fabric</p><p>2、ansible安装基础使用</p><p>3、持续集成：jekins+gitlab实现ci/cd流水线</p><p>\4. python 自动化</p><p>\5. go语言二次开发</p><h2 id="九、容器化和虚拟化技术"><a href="#九、容器化和虚拟化技术" class="headerlink" title="九、容器化和虚拟化技术"></a>九、容器化和虚拟化技术</h2><ol><li>docker ，k8s，openstack</li><li>kvm，vmware的使用</li><li>容器编排的技术</li></ol><h2 id="十、devops-编译，加速，测试环境，研发自动化"><a href="#十、devops-编译，加速，测试环境，研发自动化" class="headerlink" title="十、devops 编译，加速，测试环境，研发自动化"></a>十、devops 编译，加速，测试环境，研发自动化</h2><p><img src="https://img-blog.csdnimg.cn/img_convert/34fdbab367f2100b5c0afb41856122a6.jpeg" alt="img"></p><p><strong>成为一名合格的Linux运维工程师必备的技术点</strong></p><ul><li>掌握 Iptables 防火墙体系，实现防火墙实现数据包过滤和转发；</li><li>掌握用户权限安全控制 Sudo 体系与配置；</li><li>掌握 DNS 服务的原理、部署、安装和企业级应用；</li><li>实现文件共享服务 NFS、Vsftpd、Samba 配置和应用；</li><li>实现 Jumpserver 堡垒机 安装、配置、使用和运维体系融合；</li><li>brctl 命令创建管理虚拟网桥；Ip Netns 创建管理虚拟路由；</li><li>常见的网络客户端工具 Ping/Lftp/Ftp/Lftpget/Wget；</li><li>利用 Rsync 和 Inotify 实现多台机器数据分发和配置同步；</li><li>Jumpserver 跳板机</li><li>基本功能应用，认证、授权、审计；</li><li>https 概念及对应的模块 mod_ssl 应用配置；</li><li>运维必备 Web 服务开源解决⽅案 Nginx，全面讲解 Nginx 程序架构；</li><li>Nginx 内部框架、模块功能、事务处理机制、安装⽅法、CPU 亲缘优化、配置⽂件；</li><li>SQL 语句增删改查、常⽤命令使⽤、⽤户授权、字符集修改、表、索引、库管理等；</li><li>对⽐介绍图形化管理软件，如 PhpMyAdmin、SQLyog、Navicat 等</li><li>Keepalived 工作方式，Keepalived 核心组件、报警机制、切换机制、心跳信息传输等；</li><li>Centos7 上实现 LVS 集群配置、服务管理、调度算法修改；</li><li>全面熟悉 Ansible 用法、以及安装方法、配置文件详解、模块说明、基于私钥认证、批量操作等；</li><li>Redis 扩展方式对比介绍，Redis Cluster 的基础应用；</li><li>Vmware Esxi 创建 Linux 及 Windows 虚拟机，并实现虚拟机跨宿主机迁移；</li><li>Docker 镜像、仓库管理、启动⽅法、数据卷使⽤、备份恢复，网络模型、容器间依赖关系、容器资源限制、Docker 的监控；</li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;一、Linux-基础部分&quot;&gt;&lt;a href=&quot;#一、Linux-基础部分&quot; class=&quot;headerlink&quot; title=&quot;一、Linux 基础部分&quot;&gt;&lt;/a&gt;一、Linux 基础部分&lt;/h2&gt;&lt;p&gt;1、基础理论知识&lt;/p&gt;
+&lt;p&gt;2、基础命令（系统命令、目录</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>Linux学习笔记(二)---磁盘管理</title>
@@ -400,78 +483,6 @@
     
     
     <category term="Python" scheme="https://qwertyu212.github.io/tags/Python/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>1.航空公司客户价值分析</title>
-    <link href="https://qwertyu212.github.io/2021/11/29/%E8%88%AA%E7%A9%BA%E5%85%AC%E5%8F%B8%E5%AE%A2%E6%88%B7%E4%BB%B7%E5%80%BC%E5%88%86%E6%9E%90/"/>
-    <id>https://qwertyu212.github.io/2021/11/29/%E8%88%AA%E7%A9%BA%E5%85%AC%E5%8F%B8%E5%AE%A2%E6%88%B7%E4%BB%B7%E5%80%BC%E5%88%86%E6%9E%90/</id>
-    <published>2021-11-29T13:40:08.000Z</published>
-    <updated>2021-11-30T01:58:38.262Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="航空公司客户价值分析"><a href="#航空公司客户价值分析" class="headerlink" title="航空公司客户价值分析"></a>航空公司客户价值分析</h1><p>数据预处理：<br>丢弃数据为空的数据。<br>丢弃异常数据<br>构建 L RFMC 模型<br>构建L指标（会员入会时间距观测窗口结束的月数)<br>合并特征，进行拼接数据<br>数据标准化处理<br>聚类分析<br>绘图：</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h1 id=&quot;航空公司客户价值分析&quot;&gt;&lt;a href=&quot;#航空公司客户价值分析&quot; class=&quot;headerlink&quot; title=&quot;航空公司客户价值分析&quot;&gt;&lt;/a&gt;航空公司客户价值分析&lt;/h1&gt;&lt;p&gt;数据预处理：&lt;br&gt;丢弃数据为空的数据。&lt;br&gt;丢弃异常数据&lt;br&gt;构建 L</summary>
-      
-    
-    
-    
-    <category term="学习" scheme="https://qwertyu212.github.io/categories/%E5%AD%A6%E4%B9%A0/"/>
-    
-    
-    <category term="Python" scheme="https://qwertyu212.github.io/tags/Python/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>第一篇文章</title>
-    <link href="https://qwertyu212.github.io/2021/11/13/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/"/>
-    <id>https://qwertyu212.github.io/2021/11/13/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</id>
-    <published>2021-11-13T13:14:05.000Z</published>
-    <updated>2021-12-14T03:52:25.062Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="本地图片导入"><a href="#本地图片导入" class="headerlink" title="本地图片导入"></a>本地图片导入</h1><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">![图片名](./与博文同名的文件名/1.PNG)</span><br></pre></td></tr></table></figure><p>测试：<img src="/2021/11/13/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/test_01.jpg" alt="test_01"></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h1 id=&quot;本地图片导入&quot;&gt;&lt;a href=&quot;#本地图片导入&quot; class=&quot;headerlink&quot; title=&quot;本地图片导入&quot;&gt;&lt;/a&gt;本地图片导入&lt;/h1&gt;&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=</summary>
-      
-    
-    
-    
-    <category term="test" scheme="https://qwertyu212.github.io/categories/test/"/>
-    
-    
-    <category term="测试" scheme="https://qwertyu212.github.io/tags/%E6%B5%8B%E8%AF%95/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="https://qwertyu212.github.io/2021/11/12/My-Gallery/"/>
-    <id>https://qwertyu212.github.io/2021/11/12/My-Gallery/</id>
-    <published>2021-11-11T16:00:00.000Z</published>
-    <updated>2021-11-14T02:56:15.944Z</updated>
-    
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo d</span><br></pre></td></tr></table></figure>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
-      
-    
-    
-    
-    <category term="test" scheme="https://qwertyu212.github.io/categories/test/"/>
-    
-    
-    <category term="测试" scheme="https://qwertyu212.github.io/tags/%E6%B5%8B%E8%AF%95/"/>
     
   </entry>
   
